@@ -8,8 +8,14 @@
     <link href="../css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="clockTimer();">
     <div id="mainBlock">
+        <div class="clockpage">
+
+            <span onclick="clockCSS()" id="clock"></span>
+            <span id="dayOfWeek"></span>
+
+        </div>
         <div id="navigationBar">
             <div><a onclick="return false" href="./pages/index.html">Main</a></div>
             <div><a href="./pages/info.html">Info</a></div>
